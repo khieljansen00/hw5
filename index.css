@@ -1,0 +1,39 @@
+/*
+Khiel Jansen Mantilla
+Khiel_Mantilla@student.uml.edu
+kmantill@cs.uml.edu
+Updated on June 22 2024 at 3:59 PM
+
+For the css I make the board game tiles and I fix the position of the word tile holder and the tiles and the board game.
+
+*/
+
+.tiles {
+	width: 4rem;
+	height: 4rem;
+	margin-right: 0.2rem;
+}
+
+.boardtile {
+	/*border: 0.1rem solid black;*/
+	border: 0.2rem dashed #000;
+	width: 4rem;
+	height: 4rem;
+	display: inline-block;
+	margin-right: 0.2rem;
+}
+
+#submit {
+	margin-top: 4rem;
+}
+.thetiles {
+	margin-top: 12rem;
+	margin-bottom: 16rem;
+}
+
+#hold {
+	position: absolute;
+	z-index: -2;
+	height: 12rem;
+	top: 15rem;
+}
